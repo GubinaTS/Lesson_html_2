@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form lesson</title>
+</head>
+
+<body>
+    <form action="#" method="get">
+        <div>
+            <p><label for="user-name">Name</label></p>
+            <input type="text" name="user-name">   
+        </div>
+
+        <div>
+            <p><label for="user-password">Password</label></p>
+            <input type="password" name="user-password">
+        </div>
+        
+        <div>
+            <p><label for="user-number">Phone</label></p>
+            <input type="number" name="user-number">
+        </div>
+
+        <div>
+            <p><label for="user-gender">Gender</label></p> 
+            <div><input checked type="radio" name="user-gender" value="Male">Male</div>
+            <div><input type="radio" name="user-gender" value="Female">Female</div>            
+        </div>
+
+        <div>
+            <p><label for="user-property">Property</label></p>
+            <div><input checked type="checkbox" name="bike" value="yes">Bike</div>
+            <div><input type="checkbox" name="car" value="yes">Car</div>
+            <div><input type="checkbox" name="apartment" value="yes">Apartment</div>
+        </div>
+
+        <div>
+            <p><label for="user-info">Additional info</label></p>
+            <textarea name="user-info"></textarea>
+        </div>
+
+        <div>
+            <p><label for="user-photo">Photo</label></p>
+            <input type="file" name="user-photo">
+        </div>
+
+        <div>
+            <p><label for="user-color">Fav color</label></p>
+            <select name="user-color">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+            </select>
+        </div>
+
+        <div>
+            <p><label for="actions">Actions</label></p>
+            <input type="reset">
+            <input type="submit">
+        </div>
+    </form>
+
+</body>
+
+</html>
